@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@stitches/palm": ["./src/stitches"]
+    }
+  },
+  "include": ["src"]
+}
