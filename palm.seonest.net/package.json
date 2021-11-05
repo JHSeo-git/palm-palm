@@ -11,13 +11,29 @@
     "name": "JHSeo",
     "email": "qnfqnfqnf@gmail.com"
   },
+  "scripts": {
+    "prepare-gatsby": "babel gatsby -d . -x .ts,.tsx --presets gatsby-package",
+    "postinstall": "yarn prepare-gatsby",
+    "dev": "yarn prepare-gatsby && gatsby develop",
+    "build": "yarn prepare-gatsby && gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
   "dependencies": {
     "@stitches/react": "^1.2.5",
-    "gatsby": "next"
+    "gatsby": "next",
+    "gatsby-plugin-sharp": "^4.1.0",
+    "gatsby-transformer-sharp": "^4.1.0",
+    "react": "next",
+    "react-dom": "next"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.0",
     "@babel/core": "^7.16.0",
+    "@babel/plugin-transform-typescript": "^7.16.1",
+    "@types/node": "^16.11.6",
+    "@types/react": "^17.0.34",
+    "@types/react-dom": "^17.0.11",
     "babel-preset-gatsby-package": "^2.1.0",
     "typescript": "^4.4.4"
   }
