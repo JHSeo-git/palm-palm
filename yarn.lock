@@ -7147,6 +7147,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-plugin-layout@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "gatsby-plugin-layout@npm:3.1.0"
+  dependencies:
+    "@babel/runtime": ^7.15.4
+  peerDependencies:
+    gatsby: ^4.0.0-next
+  checksum: 58077680cb988548758891d190fb09ea378a16cbdce4390ab35d793c4ca176afc1eac2f308471eca22247025c42b44414ab1a4df8b658115da07a90346c7c00a
+  languageName: node
+  linkType: hard
+
+"gatsby-plugin-module-resolver@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "gatsby-plugin-module-resolver@npm:1.0.3"
+  peerDependencies:
+    gatsby: ">=1"
+  checksum: 13194a38db180b949618471e8833b92dee97ac300187b0ff01ed716873b5b0e9c469e0201416d52f7b2ea919a2bb1ee01fa83226f59bb62a65f9edb3e839482d
+  languageName: node
+  linkType: hard
+
 "gatsby-plugin-page-creator@npm:^4.1.0":
   version: 4.1.0
   resolution: "gatsby-plugin-page-creator@npm:4.1.0"
@@ -11411,6 +11431,7 @@ __metadata:
   dependencies:
     "@babel/cli": ^7.16.0
     "@babel/core": ^7.16.0
+    "@babel/plugin-transform-react-jsx": ^7.16.0
     "@babel/plugin-transform-typescript": ^7.16.1
     "@radix-ui/colors": ^0.1.7
     "@stitches/react": ^1.2.5
@@ -11419,6 +11440,8 @@ __metadata:
     "@types/react-dom": ^17.0.11
     babel-preset-gatsby-package: ^2.1.0
     gatsby: next
+    gatsby-plugin-layout: ^3.1.0
+    gatsby-plugin-module-resolver: ^1.0.3
     gatsby-plugin-sharp: ^4.1.0
     gatsby-transformer-sharp: ^4.1.0
     react: next

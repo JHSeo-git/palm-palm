@@ -1,9 +1,8 @@
-import React from 'react'
 import type { PageProps } from 'gatsby'
 
 type IndexPageProps = PageProps<{}>
 
-const IndexPage: React.FC<IndexPageProps> = ({ data }) => {
+function IndexPage({ data }: IndexPageProps) {
   return <div>Hello Gatsby!!</div>
 }
 

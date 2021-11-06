@@ -1,9 +1,8 @@
-import React from 'react'
 import type { PageProps } from 'gatsby'
 
 type NotFoundPageProps = PageProps<{}>
 
-const NotFoundPage: React.FC<NotFoundPageProps> = ({ data }) => {
+function NotFoundPage({ data }: NotFoundPageProps) {
   return <div>NotFoundPage</div>
 }
 

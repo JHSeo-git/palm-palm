@@ -23,6 +23,8 @@
     "@radix-ui/colors": "^0.1.7",
     "@stitches/react": "^1.2.5",
     "gatsby": "next",
+    "gatsby-plugin-layout": "^3.1.0",
+    "gatsby-plugin-module-resolver": "^1.0.3",
     "gatsby-plugin-sharp": "^4.1.0",
     "gatsby-transformer-sharp": "^4.1.0",
     "react": "next",
@@ -31,6 +33,7 @@
   "devDependencies": {
     "@babel/cli": "^7.16.0",
     "@babel/core": "^7.16.0",
+    "@babel/plugin-transform-react-jsx": "^7.16.0",
     "@babel/plugin-transform-typescript": "^7.16.1",
     "@types/node": "^16.11.6",
     "@types/react": "^17.0.34",

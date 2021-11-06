@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "main": "index.js",
   "workspaces": [
-    "packages/**",
+    "_packages/**",
+    "lab.seonest.net",
     "palm.seonest.net"
   ],
   "scripts": {

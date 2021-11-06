@@ -1193,10 +1193,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["virtual:4fcbc6a426ed69e0a4e513122c867da21bf75d5bddc5d76861a3a00c3f74b971dad3bfd65136b7419e7832778682166c88c4831e7a2279de093b64e7b3e163e1#npm:7.16.0", {
-          "packageLocation": "./.yarn/__virtual__/@babel-plugin-syntax-jsx-virtual-0b33ca3b78/0/cache/@babel-plugin-syntax-jsx-npm-7.16.0-5fd0bdc6d1-34afe4030c.zip/node_modules/@babel/plugin-syntax-jsx/",
+        ["virtual:7ca19e8cea6c6ee29a7c29dff9118162a49631195e5454380448403801715b3f7054cbd8004fd2bee2a71019610b8193d585f9ad44951073f99565682b8f9228#npm:7.16.0", {
+          "packageLocation": "./.yarn/__virtual__/@babel-plugin-syntax-jsx-virtual-2d72d97b8e/0/cache/@babel-plugin-syntax-jsx-npm-7.16.0-5fd0bdc6d1-34afe4030c.zip/node_modules/@babel/plugin-syntax-jsx/",
           "packageDependencies": [
-            ["@babel/plugin-syntax-jsx", "virtual:4fcbc6a426ed69e0a4e513122c867da21bf75d5bddc5d76861a3a00c3f74b971dad3bfd65136b7419e7832778682166c88c4831e7a2279de093b64e7b3e163e1#npm:7.16.0"],
+            ["@babel/plugin-syntax-jsx", "virtual:7ca19e8cea6c6ee29a7c29dff9118162a49631195e5454380448403801715b3f7054cbd8004fd2bee2a71019610b8193d585f9ad44951073f99565682b8f9228#npm:7.16.0"],
             ["@babel/core", "npm:7.16.0"],
             ["@babel/helper-plugin-utils", "npm:7.14.5"],
             ["@types/babel__core", null]
@@ -2049,15 +2049,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["virtual:2acba62dd44b86b19c1126446e0254f19c8a4b6080104859a4268d1440e450232a7dbbcc79de1ec1b1304c69d94b549cc1d139dc8dc63c5ee16c5d5b46b9267c#npm:7.16.0", {
-          "packageLocation": "./.yarn/__virtual__/@babel-plugin-transform-react-jsx-virtual-4fcbc6a426/0/cache/@babel-plugin-transform-react-jsx-npm-7.16.0-7fdcf4b10a-c4fd230775.zip/node_modules/@babel/plugin-transform-react-jsx/",
+        ["virtual:06a0a57f2bdd27bd7915737dace5268838bedde7ac9327513a11e7d6b189d566d55af5af0c4983d304acf327d4709101ddb8510bdedd5f721438af9991674404#npm:7.16.0", {
+          "packageLocation": "./.yarn/__virtual__/@babel-plugin-transform-react-jsx-virtual-7ca19e8cea/0/cache/@babel-plugin-transform-react-jsx-npm-7.16.0-7fdcf4b10a-c4fd230775.zip/node_modules/@babel/plugin-transform-react-jsx/",
           "packageDependencies": [
-            ["@babel/plugin-transform-react-jsx", "virtual:2acba62dd44b86b19c1126446e0254f19c8a4b6080104859a4268d1440e450232a7dbbcc79de1ec1b1304c69d94b549cc1d139dc8dc63c5ee16c5d5b46b9267c#npm:7.16.0"],
+            ["@babel/plugin-transform-react-jsx", "virtual:06a0a57f2bdd27bd7915737dace5268838bedde7ac9327513a11e7d6b189d566d55af5af0c4983d304acf327d4709101ddb8510bdedd5f721438af9991674404#npm:7.16.0"],
             ["@babel/core", "npm:7.16.0"],
             ["@babel/helper-annotate-as-pure", "npm:7.16.0"],
             ["@babel/helper-module-imports", "npm:7.16.0"],
             ["@babel/helper-plugin-utils", "npm:7.14.5"],
-            ["@babel/plugin-syntax-jsx", "virtual:4fcbc6a426ed69e0a4e513122c867da21bf75d5bddc5d76861a3a00c3f74b971dad3bfd65136b7419e7832778682166c88c4831e7a2279de093b64e7b3e163e1#npm:7.16.0"],
+            ["@babel/plugin-syntax-jsx", "virtual:7ca19e8cea6c6ee29a7c29dff9118162a49631195e5454380448403801715b3f7054cbd8004fd2bee2a71019610b8193d585f9ad44951073f99565682b8f9228#npm:7.16.0"],
             ["@babel/types", "npm:7.16.0"],
             ["@types/babel__core", null]
           ],
@@ -2081,7 +2081,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@babel/plugin-transform-react-jsx-development", "virtual:2acba62dd44b86b19c1126446e0254f19c8a4b6080104859a4268d1440e450232a7dbbcc79de1ec1b1304c69d94b549cc1d139dc8dc63c5ee16c5d5b46b9267c#npm:7.16.0"],
             ["@babel/core", "npm:7.16.0"],
-            ["@babel/plugin-transform-react-jsx", "virtual:2acba62dd44b86b19c1126446e0254f19c8a4b6080104859a4268d1440e450232a7dbbcc79de1ec1b1304c69d94b549cc1d139dc8dc63c5ee16c5d5b46b9267c#npm:7.16.0"],
+            ["@babel/plugin-transform-react-jsx", "virtual:06a0a57f2bdd27bd7915737dace5268838bedde7ac9327513a11e7d6b189d566d55af5af0c4983d304acf327d4709101ddb8510bdedd5f721438af9991674404#npm:7.16.0"],
             ["@types/babel__core", null]
           ],
           "packagePeers": [
@@ -2541,7 +2541,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/helper-plugin-utils", "npm:7.14.5"],
             ["@babel/helper-validator-option", "npm:7.14.5"],
             ["@babel/plugin-transform-react-display-name", "virtual:2acba62dd44b86b19c1126446e0254f19c8a4b6080104859a4268d1440e450232a7dbbcc79de1ec1b1304c69d94b549cc1d139dc8dc63c5ee16c5d5b46b9267c#npm:7.16.0"],
-            ["@babel/plugin-transform-react-jsx", "virtual:2acba62dd44b86b19c1126446e0254f19c8a4b6080104859a4268d1440e450232a7dbbcc79de1ec1b1304c69d94b549cc1d139dc8dc63c5ee16c5d5b46b9267c#npm:7.16.0"],
+            ["@babel/plugin-transform-react-jsx", "virtual:06a0a57f2bdd27bd7915737dace5268838bedde7ac9327513a11e7d6b189d566d55af5af0c4983d304acf327d4709101ddb8510bdedd5f721438af9991674404#npm:7.16.0"],
             ["@babel/plugin-transform-react-jsx-development", "virtual:2acba62dd44b86b19c1126446e0254f19c8a4b6080104859a4268d1440e450232a7dbbcc79de1ec1b1304c69d94b549cc1d139dc8dc63c5ee16c5d5b46b9267c#npm:7.16.0"],
             ["@babel/plugin-transform-react-pure-annotations", "virtual:2acba62dd44b86b19c1126446e0254f19c8a4b6080104859a4268d1440e450232a7dbbcc79de1ec1b1304c69d94b549cc1d139dc8dc63c5ee16c5d5b46b9267c#npm:7.16.0"],
             ["@types/babel__core", null]
@@ -10156,6 +10156,51 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["gatsby-plugin-layout", [
+        ["npm:3.1.0", {
+          "packageLocation": "./.yarn/cache/gatsby-plugin-layout-npm-3.1.0-628df83f27-58077680cb.zip/node_modules/gatsby-plugin-layout/",
+          "packageDependencies": [
+            ["gatsby-plugin-layout", "npm:3.1.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:06a0a57f2bdd27bd7915737dace5268838bedde7ac9327513a11e7d6b189d566d55af5af0c4983d304acf327d4709101ddb8510bdedd5f721438af9991674404#npm:3.1.0", {
+          "packageLocation": "./.yarn/__virtual__/gatsby-plugin-layout-virtual-40d73a3658/0/cache/gatsby-plugin-layout-npm-3.1.0-628df83f27-58077680cb.zip/node_modules/gatsby-plugin-layout/",
+          "packageDependencies": [
+            ["gatsby-plugin-layout", "virtual:06a0a57f2bdd27bd7915737dace5268838bedde7ac9327513a11e7d6b189d566d55af5af0c4983d304acf327d4709101ddb8510bdedd5f721438af9991674404#npm:3.1.0"],
+            ["@babel/runtime", "npm:7.16.0"],
+            ["@types/gatsby", null],
+            ["gatsby", "virtual:06a0a57f2bdd27bd7915737dace5268838bedde7ac9327513a11e7d6b189d566d55af5af0c4983d304acf327d4709101ddb8510bdedd5f721438af9991674404#npm:4.1.0"]
+          ],
+          "packagePeers": [
+            "@types/gatsby",
+            "gatsby"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["gatsby-plugin-module-resolver", [
+        ["npm:1.0.3", {
+          "packageLocation": "./.yarn/cache/gatsby-plugin-module-resolver-npm-1.0.3-cf218860af-13194a38db.zip/node_modules/gatsby-plugin-module-resolver/",
+          "packageDependencies": [
+            ["gatsby-plugin-module-resolver", "npm:1.0.3"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:06a0a57f2bdd27bd7915737dace5268838bedde7ac9327513a11e7d6b189d566d55af5af0c4983d304acf327d4709101ddb8510bdedd5f721438af9991674404#npm:1.0.3", {
+          "packageLocation": "./.yarn/__virtual__/gatsby-plugin-module-resolver-virtual-02b144ac8f/0/cache/gatsby-plugin-module-resolver-npm-1.0.3-cf218860af-13194a38db.zip/node_modules/gatsby-plugin-module-resolver/",
+          "packageDependencies": [
+            ["gatsby-plugin-module-resolver", "virtual:06a0a57f2bdd27bd7915737dace5268838bedde7ac9327513a11e7d6b189d566d55af5af0c4983d304acf327d4709101ddb8510bdedd5f721438af9991674404#npm:1.0.3"],
+            ["@types/gatsby", null],
+            ["gatsby", "virtual:06a0a57f2bdd27bd7915737dace5268838bedde7ac9327513a11e7d6b189d566d55af5af0c4983d304acf327d4709101ddb8510bdedd5f721438af9991674404#npm:4.1.0"]
+          ],
+          "packagePeers": [
+            "@types/gatsby",
+            "gatsby"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["gatsby-plugin-page-creator", [
         ["npm:4.1.0", {
           "packageLocation": "./.yarn/cache/gatsby-plugin-page-creator-npm-4.1.0-6272cb841b-01d63b713f.zip/node_modules/gatsby-plugin-page-creator/",
@@ -10324,7 +10369,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/generator", "npm:7.16.0"],
             ["@babel/helper-plugin-utils", "npm:7.14.5"],
             ["@babel/plugin-proposal-optional-chaining", "virtual:b5f9f85c1089774fe706ca1a333aec9e78c885e0e058b9f49ba15ab93cdd91b2d873aa54525705cf02c93a3c1204c1e786a7d020b6b1548681ce9f78a7db02ef#npm:7.16.0"],
-            ["@babel/plugin-transform-react-jsx", "virtual:2acba62dd44b86b19c1126446e0254f19c8a4b6080104859a4268d1440e450232a7dbbcc79de1ec1b1304c69d94b549cc1d139dc8dc63c5ee16c5d5b46b9267c#npm:7.16.0"],
+            ["@babel/plugin-transform-react-jsx", "virtual:06a0a57f2bdd27bd7915737dace5268838bedde7ac9327513a11e7d6b189d566d55af5af0c4983d304acf327d4709101ddb8510bdedd5f721438af9991674404#npm:7.16.0"],
             ["@babel/runtime", "npm:7.16.0"],
             ["@babel/standalone", "npm:7.16.2"],
             ["@babel/template", "npm:7.16.0"],
@@ -14886,6 +14931,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["palm.seonest.net", "workspace:palm.seonest.net"],
             ["@babel/cli", "virtual:06a0a57f2bdd27bd7915737dace5268838bedde7ac9327513a11e7d6b189d566d55af5af0c4983d304acf327d4709101ddb8510bdedd5f721438af9991674404#npm:7.16.0"],
             ["@babel/core", "npm:7.16.0"],
+            ["@babel/plugin-transform-react-jsx", "virtual:06a0a57f2bdd27bd7915737dace5268838bedde7ac9327513a11e7d6b189d566d55af5af0c4983d304acf327d4709101ddb8510bdedd5f721438af9991674404#npm:7.16.0"],
             ["@babel/plugin-transform-typescript", "virtual:06a0a57f2bdd27bd7915737dace5268838bedde7ac9327513a11e7d6b189d566d55af5af0c4983d304acf327d4709101ddb8510bdedd5f721438af9991674404#npm:7.16.1"],
             ["@radix-ui/colors", "npm:0.1.7"],
             ["@stitches/react", "virtual:06a0a57f2bdd27bd7915737dace5268838bedde7ac9327513a11e7d6b189d566d55af5af0c4983d304acf327d4709101ddb8510bdedd5f721438af9991674404#npm:1.2.5"],
@@ -14894,6 +14940,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react-dom", "npm:17.0.11"],
             ["babel-preset-gatsby-package", "virtual:06a0a57f2bdd27bd7915737dace5268838bedde7ac9327513a11e7d6b189d566d55af5af0c4983d304acf327d4709101ddb8510bdedd5f721438af9991674404#npm:2.1.0"],
             ["gatsby", "virtual:06a0a57f2bdd27bd7915737dace5268838bedde7ac9327513a11e7d6b189d566d55af5af0c4983d304acf327d4709101ddb8510bdedd5f721438af9991674404#npm:4.1.0"],
+            ["gatsby-plugin-layout", "virtual:06a0a57f2bdd27bd7915737dace5268838bedde7ac9327513a11e7d6b189d566d55af5af0c4983d304acf327d4709101ddb8510bdedd5f721438af9991674404#npm:3.1.0"],
+            ["gatsby-plugin-module-resolver", "virtual:06a0a57f2bdd27bd7915737dace5268838bedde7ac9327513a11e7d6b189d566d55af5af0c4983d304acf327d4709101ddb8510bdedd5f721438af9991674404#npm:1.0.3"],
             ["gatsby-plugin-sharp", "virtual:06a0a57f2bdd27bd7915737dace5268838bedde7ac9327513a11e7d6b189d566d55af5af0c4983d304acf327d4709101ddb8510bdedd5f721438af9991674404#npm:4.1.0"],
             ["gatsby-transformer-sharp", "virtual:06a0a57f2bdd27bd7915737dace5268838bedde7ac9327513a11e7d6b189d566d55af5af0c4983d304acf327d4709101ddb8510bdedd5f721438af9991674404#npm:4.1.0"],
             ["react", "npm:17.0.2"],

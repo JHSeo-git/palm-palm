@@ -15,6 +15,15 @@ const config: GatsbyConfig = {
   siteMetadata,
   plugins: [
     {
+      resolve: 'gatsby-plugin-module-resolver',
+      options: {
+        root: './src',
+        aliases: {
+          '@': './',
+        },
+      },
+    },
+    {
       resolve: 'gatsby-plugin-sharp',
       options: {
         defaults: {
@@ -33,6 +42,12 @@ const config: GatsbyConfig = {
       },
     },
     `gatsby-transformer-sharp`,
+    {
+      resolve: 'gatsby-plugin-layout',
+      options: {
+        component: require.resolve('./src/layouts/index.tsx'),
+      },
+    },
   ],
 }
 
