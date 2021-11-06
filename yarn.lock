@@ -2441,6 +2441,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@radix-ui/colors@npm:^0.1.7":
+  version: 0.1.7
+  resolution: "@radix-ui/colors@npm:0.1.7"
+  checksum: dacc1cfee70aada164a107903cf5aa5154e53120022f6013d95f2cf1cc440251a3d2e46d485639fd9beb248b0e4362543b000d93f6cff63c305bd87883497619
+  languageName: node
+  linkType: hard
+
 "@sideway/address@npm:^4.1.0":
   version: 4.1.2
   resolution: "@sideway/address@npm:4.1.2"
@@ -4324,9 +4331,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001125, caniuse-lite@npm:^1.0.30001272, caniuse-lite@npm:^1.0.30001274":
-  version: 1.0.30001276
-  resolution: "caniuse-lite@npm:1.0.30001276"
-  checksum: d7d02a03070bf240cf197e6c697c4c5833acea1f9232d5aeb4b00e507af3c04e96f61dc8438b92ca81c6e7b48f494a14476f3e0821c2d1db628afa7548f4967b
+  version: 1.0.30001278
+  resolution: "caniuse-lite@npm:1.0.30001278"
+  checksum: 5904289063885be40a98bf124191e816c68117d6a392065f937dd0b4929346bd677ed11ef00cadf65b2485635add46c9c33a85dc52dbf0f7dd6511f3452472bc
   languageName: node
   linkType: hard
 
@@ -5742,9 +5749,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.3.564, electron-to-chromium@npm:^1.3.886":
-  version: 1.3.888
-  resolution: "electron-to-chromium@npm:1.3.888"
-  checksum: 0af9e4056a9778639e4a2ef3cb0fb23f301115f05f87e48241701f5b6637a8fe48d1a7894c47aceb2ff15dad7bfe6a6622066039fc17a990b44772b8f49515cd
+  version: 1.3.890
+  resolution: "electron-to-chromium@npm:1.3.890"
+  checksum: 1ac87137ba1a317660fdf9292edfa5de33b6d24d15954d88b3f7ca109087f0ae8d088fc56fda724234af5d14d6a9ece62963dfec580e685026f9f1afb68e7bf5
   languageName: node
   linkType: hard
 
@@ -7855,23 +7862,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graphql-playground-html@npm:^1.6.29":
-  version: 1.6.29
-  resolution: "graphql-playground-html@npm:1.6.29"
+"graphql-playground-html@npm:^1.6.30":
+  version: 1.6.30
+  resolution: "graphql-playground-html@npm:1.6.30"
   dependencies:
     xss: ^1.0.6
-  checksum: 492a7e5247e84407e84c0836421895496bb9d4ad0047481fd3ae8beb0ba0c366ba2dbd52a8c7210a92d3728816981ea51ab5ce46a19e5107bd397eac0fb53f10
+  checksum: a17b8cd4f9c1dd94c4e2aafb5f39b80fbee20adaf80dccc2d6dfebcd0ebf65dc8d7c913bd387461a0360e61d0a7474512817c5fdb636e6c0d631603ed1e8b54c
   languageName: node
   linkType: hard
 
 "graphql-playground-middleware-express@npm:^1.7.22":
-  version: 1.7.22
-  resolution: "graphql-playground-middleware-express@npm:1.7.22"
+  version: 1.7.23
+  resolution: "graphql-playground-middleware-express@npm:1.7.23"
   dependencies:
-    graphql-playground-html: ^1.6.29
+    graphql-playground-html: ^1.6.30
   peerDependencies:
     express: ^4.16.2
-  checksum: b42f1a01c9b8b3d340d5ae3c0b9fe6147e12855754134da8ca38104c1ef9774adcf6e949c7cc9c6cfaa9280468fc39616e87676a509312db941a413e1ff542cb
+  checksum: 65123c91e9e1d251d45bc9c1697cffb086925e429eedd7151334279c31fdb76eb8601c3e8ec8d56f3f253dc780932848b90d8a9d03f202dad14fd1e734de038d
   languageName: node
   linkType: hard
 
@@ -9375,9 +9382,9 @@ __metadata:
   linkType: hard
 
 "lilconfig@npm:^2.0.3":
-  version: 2.0.3
-  resolution: "lilconfig@npm:2.0.3"
-  checksum: 39fcd06c9f94bec0f7be969f89abcead96cf9334682007df63e6fbe9bdb0566cf8e1ca53a8f56d2acca802f28e8acbabe8ed4e6265ed5e419b6a1397db003741
+  version: 2.0.4
+  resolution: "lilconfig@npm:2.0.4"
+  checksum: 02ae530aa49218d782eb79e92c600ea5220828987f85aa3403fa512cadc7efe38c0ac7d0cd2edf600ad3fae1f6c1752f5b4bb78c0d9950435b044d53d507c9e1
   languageName: node
   linkType: hard
 
@@ -9389,8 +9396,8 @@ __metadata:
   linkType: hard
 
 "lmdb-store@npm:^1.6.8":
-  version: 1.6.11
-  resolution: "lmdb-store@npm:1.6.11"
+  version: 1.6.13
+  resolution: "lmdb-store@npm:1.6.13"
   dependencies:
     msgpackr: ^1.4.7
     nan: ^2.14.2
@@ -9401,7 +9408,7 @@ __metadata:
   dependenciesMeta:
     msgpackr:
       optional: true
-  checksum: a6824d0dd1ba5a0c6c5e5158d2d24ac31b13dbcac771d9d2d3661d24ad8fdade829a92089984187e804bacda0f1a86b333b3d5ab0cf5fb9546f4d7cead25eea1
+  checksum: 19d942704708e5175df816ffe9728f607094f22860d80345a089febca8f1bd24d0c6ec1fad43eb7667c446462f6546f1bd22a32161be523e4aff925227d3827f
   languageName: node
   linkType: hard
 
@@ -9451,13 +9458,13 @@ __metadata:
   linkType: hard
 
 "loader-utils@npm:^2.0.0":
-  version: 2.0.1
-  resolution: "loader-utils@npm:2.0.1"
+  version: 2.0.2
+  resolution: "loader-utils@npm:2.0.2"
   dependencies:
     big.js: ^5.2.2
     emojis-list: ^3.0.0
     json5: ^2.1.2
-  checksum: 8f204319618e9624e25b311237d51b98109bb6093f904ffe1017097eed29654db3883c741f15d7916e17709d9cc6ebc217e678a234b42bbe37172e8eaa073f67
+  checksum: 9078d1ed47cadc57f4c6ddbdb2add324ee7da544cea41de3b7f1128e8108fcd41cd3443a85b7ee8d7d8ac439148aa221922774efe4cf87506d4fb054d5889303
   languageName: node
   linkType: hard
 
@@ -9497,7 +9504,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash.clonedeep@npm:4.5.0, lodash.clonedeep@npm:^4.5.0":
+"lodash.clonedeep@npm:4.5.0":
   version: 4.5.0
   resolution: "lodash.clonedeep@npm:4.5.0"
   checksum: 92c46f094b064e876a23c97f57f81fbffd5d760bf2d8a1c61d85db6d1e488c66b0384c943abee4f6af7debf5ad4e4282e74ff83177c9e63d8ff081a4837c3489
@@ -10878,8 +10885,8 @@ __metadata:
   linkType: hard
 
 "node-gyp@npm:latest":
-  version: 8.3.0
-  resolution: "node-gyp@npm:8.3.0"
+  version: 8.4.0
+  resolution: "node-gyp@npm:8.4.0"
   dependencies:
     env-paths: ^2.2.0
     glob: ^7.1.4
@@ -10893,7 +10900,7 @@ __metadata:
     which: ^2.0.2
   bin:
     node-gyp: bin/node-gyp.js
-  checksum: a0304728eb56c99ce61b3210b934d247b72bba81658d1d92fc0f125bbdd252bbcdedcd949a09ead9e52d6fa742301945ead06d0e2d67f614f4426b5fc6d30996
+  checksum: a5a0045f6a1708a7760cfee2b5e2cd9072dd6a0d5d3376bb96e0bae1f1e43d14a0bd54970e1fbd2632cceb9c23d36a3efabe88c26256693e969566cf977501c2
   languageName: node
   linkType: hard
 
@@ -11405,6 +11412,7 @@ __metadata:
     "@babel/cli": ^7.16.0
     "@babel/core": ^7.16.0
     "@babel/plugin-transform-typescript": ^7.16.1
+    "@radix-ui/colors": ^0.1.7
     "@stitches/react": ^1.2.5
     "@types/node": ^16.11.6
     "@types/react": ^17.0.34
@@ -12526,16 +12534,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:18.0.0-alpha-255221c86-20211103":
-  version: 18.0.0-alpha-255221c86-20211103
-  resolution: "react-dom@npm:18.0.0-alpha-255221c86-20211103"
+"react-dom@npm:17.0.2":
+  version: 17.0.2
+  resolution: "react-dom@npm:17.0.2"
   dependencies:
     loose-envify: ^1.1.0
     object-assign: ^4.1.1
-    scheduler: 0.21.0-alpha-255221c86-20211103
+    scheduler: ^0.20.2
   peerDependencies:
-    react: 18.0.0-alpha-255221c86-20211103
-  checksum: 79452ca213ec904702a6ecb6473f4b8eb651772eb487f99f2d1810eb11eebc1cda04d5ce421b8c649196e09b59383a8304d97e8946100bcabe64c5495ac5c35e
+    react: 17.0.2
+  checksum: 1c1eaa3bca7c7228d24b70932e3d7c99e70d1d04e13bb0843bbf321582bc25d7961d6b8a6978a58a598af2af496d1cedcfb1bf65f6b0960a0a8161cb8dab743c
   languageName: node
   linkType: hard
 
@@ -12567,13 +12575,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:18.0.0-alpha-255221c86-20211103":
-  version: 18.0.0-alpha-255221c86-20211103
-  resolution: "react@npm:18.0.0-alpha-255221c86-20211103"
+"react@npm:17.0.2":
+  version: 17.0.2
+  resolution: "react@npm:17.0.2"
   dependencies:
     loose-envify: ^1.1.0
     object-assign: ^4.1.1
-  checksum: 8175ea4e48b19448730ea011300401a2973e34b2b47f1c22cf72f66f5db91176d6e32ff53b17110edb5915f2db123dbd04207339447ed319224a30c71637f191
+  checksum: b254cc17ce3011788330f7bbf383ab653c6848902d7936a87b09d835d091e3f295f7e9dd1597c6daac5dc80f90e778c8230218ba8ad599f74adcc11e33b9d61b
   languageName: node
   linkType: hard
 
@@ -13135,13 +13143,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"scheduler@npm:0.21.0-alpha-255221c86-20211103":
-  version: 0.21.0-alpha-255221c86-20211103
-  resolution: "scheduler@npm:0.21.0-alpha-255221c86-20211103"
+"scheduler@npm:^0.20.2":
+  version: 0.20.2
+  resolution: "scheduler@npm:0.20.2"
   dependencies:
     loose-envify: ^1.1.0
     object-assign: ^4.1.1
-  checksum: 9cc6093853799041e131db47c24d95880fd3a915119a9403e7c617863ac11d13abe4042a1381c5fd3d596939196a53b74a2b6c20f1b2de86b46aae079b0e01c8
+  checksum: c4b35cf967c8f0d3e65753252d0f260271f81a81e427241295c5a7b783abf4ea9e905f22f815ab66676f5313be0a25f47be582254db8f9241b259213e999b8fc
   languageName: node
   linkType: hard
 
@@ -14122,16 +14130,15 @@ __metadata:
   linkType: hard
 
 "table@npm:^6.0.9":
-  version: 6.7.2
-  resolution: "table@npm:6.7.2"
+  version: 6.7.3
+  resolution: "table@npm:6.7.3"
   dependencies:
     ajv: ^8.0.1
-    lodash.clonedeep: ^4.5.0
     lodash.truncate: ^4.4.2
     slice-ansi: ^4.0.0
     string-width: ^4.2.3
     strip-ansi: ^6.0.1
-  checksum: d61f91d64b9be56ac66edd2a8c0f10fcc59995313f37198cb87de73a6b441a05ad36f4a567bd8736da35bc4a2f8f4049b0e4ff1d4356c0a7c2b91af48b8bf8b2
+  checksum: 61d732f51108222d158eca2a91bfaae41c14e0cba6eb04c702ec5a1b136219d4925940d5c4d9aff5720bc4e2385dcbe2ed52dcf37bbbd8b2be48c01c1cf2ed1d
   languageName: node
   linkType: hard
 
@@ -15207,8 +15214,8 @@ __metadata:
   linkType: hard
 
 "webpack@npm:^5.58.1":
-  version: 5.61.0
-  resolution: "webpack@npm:5.61.0"
+  version: 5.62.1
+  resolution: "webpack@npm:5.62.1"
   dependencies:
     "@types/eslint-scope": ^3.7.0
     "@types/estree": ^0.0.50
@@ -15239,7 +15246,7 @@ __metadata:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: 442958ec48645c9e612a2628a815c411cbc18289b5cc7b3d1b5d0f8e5b41606ed225decf4f3684edc365e6390867bded244d20387c70fbb630c0ac08443c34c8
+  checksum: 85d9bc7e9b4a0d59420831b1cffaed771818a7abbff3e25215246df6c5abe7806eeee8ca28b15f2dd3b34f64b05586dc138a3b181ce99d1887370301c4ce7e2e
   languageName: node
   linkType: hard
 

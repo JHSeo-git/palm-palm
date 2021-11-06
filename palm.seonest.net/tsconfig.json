@@ -1,10 +1,10 @@
 {
   "extends": "../tsconfig.json",
   "compilerOptions": {
-    "jsx": "preserve",
+    "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
-      "@stitches/palm": ["./src/stitches"]
+      "@stitches.js": ["./src/stitches/config.ts"]
     }
   },
   "include": ["src"]

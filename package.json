@@ -3,15 +3,18 @@
   "private": true,
   "version": "0.0.0",
   "main": "index.js",
-  "resolutions": {
-    "gatsby": "4.1.0",
-    "react": "18.0.0-alpha-255221c86-20211103",
-    "react-dom": "18.0.0-alpha-255221c86-20211103"
-  },
   "workspaces": [
     "packages/**",
     "palm.seonest.net"
   ],
+  "scripts": {
+    "build:all": "yarn workspaces foreach -t -p run build"
+  },
+  "resolutions": {
+    "gatsby": "4.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
   "devDependencies": {
     "@types/node": "^16.11.6",
     "typescript": "^4.4.4"

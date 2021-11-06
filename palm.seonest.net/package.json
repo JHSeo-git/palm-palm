@@ -20,6 +20,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@radix-ui/colors": "^0.1.7",
     "@stitches/react": "^1.2.5",
     "gatsby": "next",
     "gatsby-plugin-sharp": "^4.1.0",
