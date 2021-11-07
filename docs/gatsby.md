@@ -4,6 +4,27 @@
 
 ## 이해
 
+### typescript
+
+typescript를 적용하여 작성합니다.
+
+config에도 모두 적용합니다.
+
+실행 스크립트 순서는
+
+1. gatsby-config.ts, gatsby-node.ts, ... 등을 babel + gatsby-package(babel gatsby preset)을 이용하여 transform
+2. root path에 gatsby-\*.js로 transform되어 실제 실행은 이 파일들로 실행
+3. 개발모드, 빌드, 배포모드에 따라 실행하면 됩니다.
+
+### gatsby-cli
+
+- gatsby-config.js
+- gatsby-node.js
+
+### React 17
+
+babel react jsx(runtime: automatic) 사용을 위해 gatsby-node에 babel config에 추가합니다.
+
 ## gatsby-plugin
 
 > https://www.gatsbyjs.com/docs/plugins/
@@ -26,4 +47,5 @@
 (기능 공유, 데이터 소싱, 디자인)
 
 ## gatsby-transformer
+
 ## gatsby-source

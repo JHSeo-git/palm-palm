@@ -15,7 +15,7 @@
     "prepare-gatsby": "babel gatsby -d . -x .ts,.tsx --presets gatsby-package",
     "postinstall": "yarn prepare-gatsby",
     "dev": "yarn prepare-gatsby && gatsby develop",
-    "build": "yarn prepare-gatsby && gatsby develop",
+    "build": "yarn prepare-gatsby && gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
