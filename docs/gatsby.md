@@ -18,14 +18,28 @@ config에도 모두 적용합니다.
 
 ### gatsby-cli
 
-- gatsby-config.js
-- gatsby-node.js
+- gatsby-config.js: gatsby root 느낌
+- gatsby-node.js: node root 느낌
+- gatsby-ssr.js: ssr root 느낌
 
-### React 17
+### React 17 runtime: automatic
 
 babel react jsx(runtime: automatic) 사용을 위해 gatsby-node에 babel config에 추가합니다.
 
-## gatsby-plugin
+```js
+export const onCreateBabelConfig: GatsbyNode['onCreateBabelConfig'] = ({
+  actions,
+}) => {
+  actions.setBabelPlugin({
+    name: require.resolve('@babel/plugin-transform-react-jsx'),
+    options: {
+      runtime: 'automatic',
+    },
+  })
+}
+```
+
+## gatsby plugin
 
 > https://www.gatsbyjs.com/docs/plugins/
 
@@ -33,10 +47,16 @@ babel react jsx(runtime: automatic) 사용을 위해 gatsby-node에 babel config
 
 가츠비 플러그인은 더 크고 복잡한 사이트의 경우 사이트 사용자 정의를 사이트별 플러그인으로 모듈화할 수 있습니다.
 
+- plugin
+- theme
+- transformer
+- source
+
 ### useful gatsby plugins
 
+- gatsby-plugin-module-resolver
 - gatsby-plugin-sharp
-- gatsby-plugin-react-helmet
+- gatsby-plugin-react-helmet-async
 
 ## gatsby-theme
 
