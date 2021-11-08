@@ -1,5 +1,7 @@
 # Gatsby
 
+> reference: https://github.com/daangn/websites
+
 가츠비 써보기
 
 ## 이해
@@ -18,9 +20,10 @@ config에도 모두 적용합니다.
 
 ### gatsby-cli
 
-- gatsby-config.js: gatsby root 느낌
-- gatsby-node.js: node root 느낌
-- gatsby-ssr.js: ssr root 느낌
+- gatsby-config.js: gatsby 사이트 config 설정, metadata 포함(title, description, ...)
+- gatsby-node.js: node.js API 커스텀 + build 관련 셋팅 설정
+- gatsby-browser.js: browser 설정 커스텀, 확장
+- gatsby-ssr.js: ssr 설정
 
 ### React 17 runtime: automatic
 
@@ -39,6 +42,12 @@ export const onCreateBabelConfig: GatsbyNode['onCreateBabelConfig'] = ({
 }
 ```
 
+### layouts + wrapRootElement
+
+> like \_app.tsx or \_document.tsx in next.js
+
+https://www.gatsbyjs.com/docs/reference/config-files/gatsby-browser/#wrapRootElement
+
 ## gatsby plugin
 
 > https://www.gatsbyjs.com/docs/plugins/
@@ -54,7 +63,8 @@ export const onCreateBabelConfig: GatsbyNode['onCreateBabelConfig'] = ({
 
 ### useful gatsby plugins
 
-- gatsby-plugin-module-resolver
+- gatsby-plugin-module-resolver: node 모듈리졸버
+- [gatsby-plugin-layout](https://www.gatsbyjs.com/plugins/gatsby-plugin-layout/): gatsby@v1 에 있던 layout과 컨셉 동일하게 쓸 수 있도록 해줌, 예를 들어, 페이지 이동 애니메이션을 적용하고 싶을 때 Layout이 re-render되지 않고 유지될 수 있어서 쉽게 적용 할 수 있음, 또한 state 유지할 수 있어서 별도 store 사용하지 않아도 됨.
 - gatsby-plugin-sharp
 - gatsby-plugin-react-helmet-async
 
