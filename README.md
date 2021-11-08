@@ -1,6 +1,6 @@
 # palm-palm
 
-instance history for me or you
+Practice for gatsby.
 
 ## license
 
