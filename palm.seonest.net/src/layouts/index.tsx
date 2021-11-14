@@ -1,6 +1,7 @@
 import { globalCss } from '@/stitches/config'
 import type { PageProps } from 'gatsby'
 import type { OverrideProps } from '../lib/types'
+import BaseLayout from './BaseLayout'
 
 type LayoutProps = OverrideProps<
   PageProps<{}>,
@@ -29,7 +30,7 @@ const globalStyles = globalCss({
 function Layout({ data, children }: LayoutProps) {
   globalStyles()
 
-  return <>{children}</>
+  return <BaseLayout>{children}</BaseLayout>
 }
 
 export default Layout

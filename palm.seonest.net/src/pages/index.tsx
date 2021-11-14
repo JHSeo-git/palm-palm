@@ -32,27 +32,20 @@ const Container = styled('div', {
   position: 'absolute',
   inset: 0,
 
-  display: 'flex',
-  jc: 'center',
-  ai: 'center',
+  overflowY: 'auto',
 })
 
 const Panel = styled('section', {
   maxWidth: '$maxWidth',
   width: '100%',
-  height: '100%',
-  overflowY: 'auto',
   bc: '$loContrast',
   m: '0 auto',
 
-  px: '$4',
-  py: '$9',
+  p: '$4',
 
   display: 'flex',
   flexDirection: 'column',
   gap: '$8',
-
-  position: 'relative',
 })
 
 export default IndexPage
