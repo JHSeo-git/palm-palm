@@ -11421,6 +11421,30 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"palm.seonest.net@workspace:palm.seonest.net":
+  version: 0.0.0-use.local
+  resolution: "palm.seonest.net@workspace:palm.seonest.net"
+  dependencies:
+    "@babel/cli": ^7.16.0
+    "@babel/core": ^7.16.0
+    "@babel/plugin-transform-react-jsx": ^7.16.0
+    "@babel/plugin-transform-typescript": ^7.16.1
+    "@radix-ui/colors": ^0.1.7
+    "@stitches/react": ^1.2.5
+    "@types/node": ^16.11.9
+    "@types/react": ^17.0.35
+    "@types/react-dom": ^17.0.11
+    babel-preset-gatsby-package: ^2.1.0
+    gatsby: next
+    gatsby-plugin-module-resolver: ^1.0.3
+    gatsby-plugin-sharp: ^4.2.0
+    gatsby-transformer-sharp: ^4.2.0
+    react: next
+    react-dom: next
+    typescript: 4.4.4
+  languageName: unknown
+  linkType: soft
+
 "parent-module@npm:^1.0.0":
   version: 1.0.1
   resolution: "parent-module@npm:1.0.1"
@@ -14187,30 +14211,6 @@ __metadata:
   checksum: a04c07bb9e2d8f46776517d4618f2406fb977a74d914ad98b264fc3db0fe8224da5bec11e5f8902c5b9bcb8ace22d95fbe3c7b36b8593b7dfc8391a25898f32f
   languageName: node
   linkType: hard
-
-"template.seonest.net@workspace:template.seonest.net":
-  version: 0.0.0-use.local
-  resolution: "template.seonest.net@workspace:template.seonest.net"
-  dependencies:
-    "@babel/cli": ^7.16.0
-    "@babel/core": ^7.16.0
-    "@babel/plugin-transform-react-jsx": ^7.16.0
-    "@babel/plugin-transform-typescript": ^7.16.1
-    "@radix-ui/colors": ^0.1.7
-    "@stitches/react": ^1.2.5
-    "@types/node": ^16.11.9
-    "@types/react": ^17.0.35
-    "@types/react-dom": ^17.0.11
-    babel-preset-gatsby-package: ^2.1.0
-    gatsby: next
-    gatsby-plugin-module-resolver: ^1.0.3
-    gatsby-plugin-sharp: ^4.2.0
-    gatsby-transformer-sharp: ^4.2.0
-    react: next
-    react-dom: next
-    typescript: 4.4.4
-  languageName: unknown
-  linkType: soft
 
 "term-size@npm:^2.1.0":
   version: 2.2.1

@@ -5,7 +5,7 @@
   "main": "index.js",
   "workspaces": [
     "_packages/**",
-    "template.seonest.net",
+    "palm.seonest.net",
     "team.seonest.net"
   ],
   "scripts": {
