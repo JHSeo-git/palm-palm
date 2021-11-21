@@ -5,19 +5,18 @@
   "main": "index.js",
   "workspaces": [
     "_packages/**",
-    "lab.seonest.net",
-    "palm.seonest.net"
+    "template.seonest.net",
+    "team.seonest.net"
   ],
   "scripts": {
     "build:all": "yarn workspaces foreach -t -p run build"
   },
   "resolutions": {
-    "gatsby": "4.1.0",
+    "gatsby": "4.2.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
-    "@types/node": "^16.11.6",
-    "typescript": "^4.4.4"
+    "typescript": "4.4.4"
   }
 }
