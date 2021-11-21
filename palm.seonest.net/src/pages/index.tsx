@@ -1,49 +1,83 @@
-import { useState } from 'react'
 import type { PageProps } from 'gatsby'
+import { styled } from '@/stitches/config'
 import Button from '@/components/common/Button'
 import Card from '@/components/common/Card'
-import { styled } from '@/stitches/config'
+import Container from '@/components/common/Container'
 
 type IndexPageProps = PageProps<{}>
-type ButtonVariants = React.ComponentProps<typeof Button>['variant']
 
 function IndexPage({ data }: IndexPageProps) {
-  const [variant, setVariant] = useState<ButtonVariants>('blueScale')
-  const onClick = () => {
-    setVariant('redScale')
-  }
   return (
-    <Container>
-      <Panel>
-        <Card variant="full" shadow>
-          Card
+    <Container
+      css={{
+        pt: '$4',
+      }}
+    >
+      <FlexBox>
+        <Card shadow>
+          <h1>Hello</h1>
         </Card>
-        <Button variant={variant} onClick={onClick}>
-          Button
+        <Card shadow>
+          <h1>World</h1>
+        </Card>
+        <Card shadow>
+          <h1>Bye</h1>
+        </Card>
+        <Card shadow>
+          <h1>Newwork</h1>
+        </Card>
+        <Card shadow>
+          <h1>See</h1>
+        </Card>
+        <Card shadow>
+          <h1>You</h1>
+        </Card>
+        <Card shadow>
+          <h1>Soon</h1>
+        </Card>
+      </FlexBox>
+      <GridBox css={{ mt: '$8' }}>
+        <Card shadow>
+          <h1>Hello</h1>
+        </Card>
+        <Card shadow>
+          <h1>World</h1>
+        </Card>
+        <Card shadow>
+          <h1>Bye</h1>
+        </Card>
+        <Card shadow>
+          <h1>Newwork</h1>
+        </Card>
+        <Card shadow>
+          <h1>See</h1>
+        </Card>
+        <Card shadow>
+          <h1>You</h1>
+        </Card>
+        <Card shadow>
+          <h1>Soon</h1>
+        </Card>
+      </GridBox>
+      <FlexBox css={{ mt: '$8' }}>
+        <Button css={{ width: '100%' }} variant="greenScale">
+          Perfect!!
         </Button>
-      </Panel>
+      </FlexBox>
     </Container>
   )
 }
 
-const Container = styled('div', {
-  position: 'absolute',
-  inset: 0,
-
-  overflowY: 'auto',
+const FlexBox = styled('div', {
+  display: 'flex',
+  flexWrap: 'wrap',
+  gap: '$4',
 })
 
-const Panel = styled('section', {
-  maxWidth: '$maxWidth',
-  width: '100%',
-  bc: '$loContrast',
-  m: '0 auto',
-
-  p: '$4',
-
-  display: 'flex',
-  flexDirection: 'column',
-  gap: '$8',
+const GridBox = styled('div', {
+  display: 'grid',
+  gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
+  gap: '$4',
 })
 
 export default IndexPage
